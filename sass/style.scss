@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.carousel-wrapper {
+  margin-top: 40px;
+}
+
+.carousel {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 800px;
+  height: 400px;
+  border: 2px solid rgb(0, 0, 0);
+  ul {
+    padding: 0;
+    margin: 0;
+    width: 800px * 3;
+    li {
+      list-style: none;
+      float: left;
+    }
+  }
+}
