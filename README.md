@@ -1,5 +1,5 @@
 10.3 - jquery carrousel
-
+https://codepen.io/sophie_gosia/pen/oqJKPB
 
 How to run this project: 
 
