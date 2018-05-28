@@ -1,10 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-body { background: black; font-family: 'Roboto', sans-serif; font-size: 20px; text-align: center; color: white; }
+body { font-family: 'Roboto', sans-serif; font-size: 20px; text-align: center; color: #d65b9f; }
 
-.carousel-wrapper { margin-top: 40px; }
+body .carousel-wrapper { margin-top: 40px; }
 
 .carousel { margin: 0 auto; overflow: hidden; position: relative; width: 800px; height: 400px; border: 2px solid black; }
+
+.carousel .fa-chevron-right, .carousel .fa-chevron-left { position: absolute; top: 200px; font-size: 25px; color: #fff; }
+
+.carousel .fa-chevron-right:hover, .carousel .fa-chevron-left:hover { color: black; }
+
+.carousel .fa-chevron-left { left: 10px; }
+
+.carousel .fa-chevron-right { right: 10px; }
 
 .carousel ul { padding: 0; margin: 0; width: 2400px; }
 
 .carousel ul li { list-style: none; float: left; }
+
+.meatballs ul { list-style: none; text-align: center; }
+
+.meatballs ul li { display: inline-block; margin: 0 1em; }
+
+.meatballs ul li a { display: inline-block; width: 18px; height: 18px; font-size: 0; text-indent: 100%; white-space: nowrap; overflow: hidden; outline: none; box-sizing: border-box; transition: .2s ease-in-out; border: 2px solid black; border-radius: 50%; }
+
+.meatballs ul li a:hover, .meatballs ul li a.is-active { background-color: black; }
